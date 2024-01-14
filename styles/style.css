@@ -76,7 +76,7 @@ ul li a{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 50px;
+    margin-top: 80px;
 }
 
 .banner .header-content{
@@ -204,6 +204,7 @@ section{
     justify-content: space-between;
     align-items: center;
     gap: 100px;
+    padding: 50px 0;
 }
 
 .featured .content-side h2{
@@ -217,4 +218,32 @@ section{
     font-weight: 700;
     line-height: 28px;
     margin: 10px 0; 
+}
+
+
+
+/* Footer */
+footer{
+    background: #0A0826;
+    text-align: center;
+    padding: 50px 0;
+}
+
+footer h2{
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+footer p{
+    color:  #868686;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px; 
+    margin: 10px 0;
+}
+
+footer i{
+    color: white;
+    margin: 0 10px;
 }
