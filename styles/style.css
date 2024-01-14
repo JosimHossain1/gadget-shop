@@ -22,7 +22,6 @@
     width: 90%;
     margin: 0 auto;
 }
-
 /* Header Area */
 
 /* Navbar */
@@ -54,4 +53,47 @@ ul li a{
     color: var(--primary-color);
     font-size: 16px;
     font-weight: 600;
+}
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.banner .header-content{
+    width: 582px;
+}
+
+.banner .header-content h1{
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 70px;
+}
+
+.banner .header-content p{
+    font-size: 16px;
+font-style: normal;
+font-weight: 600;
+}
+
+.banner .header-content button{
+    background-color: var(--primary-bg);
+    border: none;
+    color: white;
+    border-radius: 20px;
+    padding: 10px 24px;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.banner .header-content button i{
+    margin-left: 10px;
+}
+.banner img{
+    width: 440px;
+    height: 414px;
 }
