@@ -23,7 +23,9 @@
     margin: 0 auto;
 }
 /* Header Area */
-
+header{
+    height: 100vh;
+}
 /* Navbar */
 
 nav{
@@ -96,4 +98,21 @@ font-weight: 600;
 .banner img{
     width: 440px;
     height: 414px;
+}
+
+
+/* Main Start */
+
+main{
+    padding: 0px 80px;
+}
+
+.sponsor .warpper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid rgb(232, 230, 230);
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 30px;
 }
